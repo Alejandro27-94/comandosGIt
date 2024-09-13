@@ -24,9 +24,13 @@ mv “el directorio de donde queremos mover/el nombre del archivo” “el direc
 clear: nos permite limpiar la pantalla.
 history: ver los últimos comandos que ejecutamos y un número especial con el que podemos volver a repetir el comando.
 
-
-*** GITHUB ***
-
 git status: podemos ver el estado git de los archivos de la ruta 
 git add: git add <file> <file> ... asi podemos agregar el archivo que deseamos a git
 git commit -m: se compromenten (cargan) los archivos, la '-m' mensaje 
+git restore --stage <file>: Recuperamos el archivo que hemos eliminado
+
+
+
+
+
+*** GITHUB ***
