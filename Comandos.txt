@@ -28,9 +28,18 @@ git status: podemos ver el estado git de los archivos de la ruta
 git add: git add <file> <file> ... asi podemos agregar el archivo que deseamos a git
 git commit -m: se compromenten (cargan) los archivos, la '-m' mensaje 
 git restore --stage <file>: Recuperamos el archivo que hemos eliminado
+git ignore: se crea un archivo con este nombre, dentro de este se nombran los archivos que queremos sean ignorados
+git log --oneline: nos lista los commit que hemos hecho 
+git branch: Muestra la rama donde estamos trabajando
+git checkout -b 'ramaB': Elejimos o creamos la rama para trabajar, independiente a la rama principal
+git merge 'ramaB': asi podemos elegir la rama que deseamos traer a la rama main, este comando desde la rama main
 
 
 
 
+*** GITHUB ***  
 
-*** GITHUB ***
+Debemos crear un nuevo repositorio en GitHub 
+
+git remote add origin https://github.com/Alejandro27-94/comandosGIt.git: esta linea de codigo que arroja GitHub se copia en la terminal 
+git push -u origin main : podemos subir los cambios
