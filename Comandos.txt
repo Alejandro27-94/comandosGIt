@@ -2,6 +2,8 @@
 
 COMANDOS 
 
+git config --global -e: lista la configuracion de nuestra terminal
+git config --global core.editor "code --true": configuramos nuestro respaldo proveniente de WSO
 pwd: nos muestra la carpeta actual en la que nos encontramos.
 mkdir: nos permite crear carpetas, p. ej. mkdir NuevaCarpeta
 touch: nos permite crear archivos nuevos, p.ej. touch NuevoArchivo.txt
@@ -41,5 +43,8 @@ git merge 'ramaB': asi podemos elegir la rama que deseamos traer a la rama main,
 
 Debemos crear un nuevo repositorio en GitHub 
 
+
+git pull origin main: Actualiza tu repositorio local
 git remote add origin https://github.com/Alejandro27-94/comandosGIt.git: esta linea de codigo que arroja GitHub se copia en la terminal 
 git push -u origin main : podemos subir los cambios
+
